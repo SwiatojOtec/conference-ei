@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
       },
       { id: "8441915618", label: t("speakers"), url: "#speakers" },
       { id: "8950054252", label: t("partners"), url: "#partners" },
-      { id: "2382149563", label: t("joint"), url: "#request" },
+      // { id: "2382149563", label: t("joint"), url: "#request" },
     ],
     [t],
   );

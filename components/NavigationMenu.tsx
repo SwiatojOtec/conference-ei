@@ -30,7 +30,7 @@ const NavigationMenu = ({ burger, closeBurger }: MenuItemsPropsTypes) => {
       },
       { id: "8441915618", label: t("speakers"), active: false, url: "#speakers" },
       { id: "8950054252", label: t("partners"), active: false, url: "#partners" },
-      { id: "2382149563", label: t("joint"), active: false, url: "#request" },
+      // { id: "2382149563", label: t("joint"), active: false, url: "#request" },
     ],
     [t],
   );
