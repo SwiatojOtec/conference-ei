@@ -2,7 +2,14 @@
 
 import Image from "next/image";
 import React, { Dispatch, useCallback, useMemo } from "react";
-import { EUI_logo_4, close, fundedByEU, monLogoEng, monLogoUa } from "@/public/icons/index";
+import {
+  EUI_logo_4,
+  close,
+  fundedByEU,
+  fundedByEuUkr,
+  monLogoEng,
+  monLogoUa,
+} from "@/public/icons/index";
 import { useLocale } from "next-intl";
 import dynamic from "next/dynamic";
 
@@ -22,11 +29,13 @@ const BurgerMenu = React.memo(({ onOpenBurger }: BurgerMenuTypes) => {
 
   const locale = useLocale();
 
-  const logoSrc = useMemo(() => (locale === "en" ? monLogoEng : monLogoUa), [locale]);
+  const ministerLogoSrc = useMemo(() => (locale === "en" ? monLogoEng : monLogoUa), [locale]);
+
+  const fundedByLogoSrc = useMemo(() => (locale === "en" ? fundedByEU : fundedByEuUkr), [locale]);
 
   return (
     <div className="relative h-screen flex flex-col space-y-5 gap-5 items-center w-full px-5 py-12 overflow-auto">
-      <div className="flex space-x-1 max-w-64 justify-center h-20 items-center">
+      <div className="flex space-x-1 max-w-64 justify-center h-20">
         <Image
           src={EUI_logo_4}
           alt="EUI Logo"
@@ -36,7 +45,7 @@ const BurgerMenu = React.memo(({ onOpenBurger }: BurgerMenuTypes) => {
           className="min-w-[34px] max-w-[44px] w-full object-contain"
         />
         <Image
-          src={logoSrc}
+          src={ministerLogoSrc}
           alt="Minister's Logo"
           width={128}
           height={96}
@@ -44,7 +53,7 @@ const BurgerMenu = React.memo(({ onOpenBurger }: BurgerMenuTypes) => {
           className="min-w-[74px] max-w-[94px] w-full object-contain"
         />
         <Image
-          src={fundedByEU}
+          src={fundedByLogoSrc}
           alt="Funding by EU"
           width={102}
           height={84}

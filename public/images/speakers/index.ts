@@ -14,8 +14,12 @@ import fedko from "./fedko.jpg";
 import mohamed from "./mohamed.jpg";
 import madsen from "./madsen.jpg";
 import vinsent from "./vinsent.jpg";
+import boki from "./boki.jpg";
+import rene from "./rene.jpg";
 
 export {
+  boki,
+  rene,
   mohamed,
   vinsent,
   madsen,

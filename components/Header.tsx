@@ -2,7 +2,14 @@
 
 import React, { useMemo, useState } from "react";
 import { BurgerMenu, LanguageSelector, NavigationMenu } from "./index";
-import { EUI_logo_4, burger, fundedByEU, monLogoEng, monLogoUa } from "@/public/icons/index";
+import {
+  EUI_logo_4,
+  burger,
+  fundedByEU,
+  fundedByEuUkr,
+  monLogoEng,
+  monLogoUa,
+} from "@/public/icons/index";
 import Image from "next/image";
 import { useDisableBodyScroll } from "@/hooks/useDisableBodyScroll";
 import { useLocale } from "next-intl";
@@ -13,7 +20,8 @@ const Header: React.FC = () => {
 
   useDisableBodyScroll(isOpenBurger);
 
-  const logoSrc = useMemo(() => (locale === "en" ? monLogoEng : monLogoUa), [locale]);
+  const ministerLogoSrc = useMemo(() => (locale === "en" ? monLogoEng : monLogoUa), [locale]);
+  const fundedByLogoSrc = useMemo(() => (locale === "en" ? fundedByEU : fundedByEuUkr), [locale]);
 
   const handleBurgerToggle = () => setIsOpenBurger((prev) => !prev);
 
@@ -24,7 +32,7 @@ const Header: React.FC = () => {
           <BurgerMenu onOpenBurger={setIsOpenBurger} />
         ) : (
           <div className="flex gap-5 justify-between items-center px-1 lg:px-5 xl:px-12 w-full max-md:px-5 max-md:max-w-full">
-            <div className="flex space-x-1 max-w-64 h-20 items-center">
+            <div className="flex space-x-1 max-w-64 h-20">
               <Image
                 src={EUI_logo_4}
                 alt="EUI Logo"
@@ -34,7 +42,7 @@ const Header: React.FC = () => {
                 className="min-w-[34px] max-w-[44px] w-full object-contain"
               />
               <Image
-                src={logoSrc}
+                src={ministerLogoSrc}
                 alt="Minister's Logo"
                 width={128}
                 height={96}
@@ -42,7 +50,7 @@ const Header: React.FC = () => {
                 className="min-w-[74px] max-w-[94px] w-full object-contain"
               />
               <Image
-                src={fundedByEU}
+                src={fundedByLogoSrc}
                 alt="Funding by EU"
                 width={102}
                 height={84}

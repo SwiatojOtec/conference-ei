@@ -6,7 +6,7 @@ import {
   Header,
   HeroSection,
   Partners,
-  RequestSection,
+  // RequestSection,
   SpeakersNew,
   ConferenceAgenda,
 } from "@/components/index";
@@ -19,7 +19,7 @@ function Home() {
         <HeroSection />
         <EventHighlights />
         <ThematicPanels />
-        <RequestSection />
+        {/* <RequestSection /> */}
         <ConferenceAgenda />
         <SpeakersNew />
         <Partners />

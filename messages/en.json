@@ -25,17 +25,17 @@
   },
   "thematic_panels": {
     "title": "Discussion panels",
-    "thematic_title_1": "Political Dialogue",
+    "thematic_title_1": "Policy Dialogue: Healthcare in Ukraine on the Path to European Integration",
     "thematic_desc_1": "The panel will focus on the sustainability of Ukraine's healthcare system in the context of European integration and its role in the European space. Speakers will discuss the need to consolidate efforts between the state, business and the public on the principle of “One voice”, as well as the perspective of integrating the Ukrainian healthcare system into the European one. Particular attention will be paid to the assessment of the current state of cooperation between Ukraine and the EU, international cooperation, and global challenges and opportunities in the process of European integration.",
-    "thematic_title_2": "Public health system resilience: achievements and challenges.",
+    "thematic_title_2": "Emergency Preparedness: Public Health and the Blood System",
     "thematic_desc_2": "The panel will focus on the main achievements of European integration in public health, particularly the development of the blood system in Ukraine, European integration changes in this area of regulation, and the connection with healthcare reforms. The main framework of civil-military partnership in the blood service, algorithms for providing blood to the military and security forces, and innovative solutions used in positional warfare will also be presented. The panel will assess the Ukrainian experience in reforming the blood system, and present the main achievements that may be useful for the European Union countries in the context of increasing the resilience of the blood system in emergencies. Representatives of the European Commission are expected to speak on the introduction of the new SoHO regulation.",
-    "thematic_title_3": "Medical services and cross-border medicine",
+    "thematic_title_3": "Medical Services: European Integration Achievements and Plans for the Future",
     "thematic_desc_3": "The panel discussion will focus on the future of Ukrainian healthcare in the European market! This panel will reveal the potential of Ukrainian healthcare services in the context of cross-border medicine and their integration into the EU's common healthcare market. Particular attention will be paid to the unique experience that Ukrainian doctors have gained during the war and its role in increasing the competitiveness of Ukrainian medicine. Representatives of the European Commission are expected to share their vision of the development of the EU's common healthcare market and current challenges in the EU healthcare system. This is a unique opportunity to learn about the key aspects that shape the new standards of medicine and healthcare on the way to European integration. Together we will discuss the implementation of European quality standards for medical care, prospects for the development of reproductive technologies, and ways to fight cancer.",
-    "thematic_title_4": "Transformation of the Ukrainian pharmaceutical sector to the European market. Ukraine as a hub of pharmaceutical industry",
+    "thematic_title_4": "Transformation of the Ukrainian Pharmaceutical Sector to the European Market",
     "thematic_desc_4": "We invite you to a panel discussion to explore the future of Ukrainian pharmaceuticals in the context of European integration! This panel focuses on key questions: how does Ukraine adapt its pharmaceutical standards to European ones? What steps are taken to establish state control in the pharmaceutical sector? How can simplification of drug registration accelerate access to the EU market? The panel will also discuss Ukraine's prospects in clinical trials and opportunities for expanding drug production. Special attention will be paid to the potential of Ukrainian pharmaceuticals in the European market and ways to localize manufacturing. Representatives of the European Commission are expected to speak on the European Commission's efforts to implement the EU pharmaceutical reform, current status, and future strategic plans.",
-    "thematic_title_5": "European financial and investment opportunities in the healthcare sector",
+    "thematic_title_5": "European Financial and Investment Opportunities in Healthcare",
     "thematic_desc_5": "The panel is dedicated to the effective functioning and attraction of international financial instruments for development (grants, loans, donor assistance, etc.) and investment in the healthcare sector, in particular in the process of European integration. We will look at how private and public investments can strengthen the Ukrainian healthcare system, as well as learn about other financial sources, grants, and donor assistance that can improve the process of European integration in the healthcare sector. Representatives of the European Commission are expected to present EU financial programs related to the healthcare sector, which can be useful for strengthening Ukraine's efforts to implement European standards. Together we will open new horizons of financing and learn how to attract maximum resources for the development of the Ukrainian healthcare system!",
-    "thematic_title_6": "The future of Ukraine's healthcare in the EU through the eyes of young people",
+    "thematic_title_6": "The Youth Vision of the Future of Ukraine's Healthcare Sector in the EU",
     "thematic_desc_6": "We will dive into the world of young professionals' views, ambitions, and hopes for Ukraine's integration into the European Union. How do they perceive European values? What role do they see for themselves in the development of the healthcare sector? Why is European integration key for this sector? Join the discussion and find out how young people are shaping the new face of Ukrainian medicine in the European context!"
   },
   "joint_statement": {
@@ -80,6 +80,14 @@
     "6600130713": {
       "name": "Maryna Slobodnichenko",
       "position": "Deputy Minister of Health of Ukraine for European Integration"
+    },
+    "0181458066": {
+      "name": "Rene Steiner",
+      "position": "Policy Officer, Delegation of the European Union to Ukraine"
+    },
+    "7809504446": {
+      "name": "Borisa Falatar",
+      "position": "European Health Emergency Preparedness and Response Authority, European Commission"
     },
     "5570982942": {
       "name": "Marlene Rosemarie Madsen",

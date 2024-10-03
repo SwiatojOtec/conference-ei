@@ -12,9 +12,11 @@ import monLogoUa from "./MOHLogoUa.png";
 import monLogoEng from "./MOHLogoENG.png";
 import publicHealth from "./public-health.png";
 import thl from "./thl.svg";
+import fundedByEuUkr from "./fundedByEuUkr.png";
 
 export {
   thl,
+  fundedByEuUkr,
   monLogoUa,
   monLogoEng,
   burger,

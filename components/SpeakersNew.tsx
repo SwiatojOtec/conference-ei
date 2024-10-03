@@ -23,6 +23,8 @@ import {
   fedko,
   vinsent,
   madsen,
+  rene,
+  boki,
 } from "@/public/images/speakers/index";
 
 function SpeakersNew() {
@@ -72,6 +74,18 @@ function SpeakersNew() {
       name: t("6600130713.name"),
       position: t("6600130713.position"),
       image: slobodnichenko,
+    },
+    {
+      id: "0181458066",
+      name: t("0181458066.name"),
+      position: t("0181458066.position"),
+      image: rene,
+    },
+    {
+      id: "7809504446",
+      name: t("7809504446.name"),
+      position: t("7809504446.position"),
+      image: boki,
     },
     {
       id: "5570982942",
