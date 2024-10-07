@@ -1,7 +1,6 @@
 import nizhynskyi from "./nizhynskyi.jpg";
 import piddubna from "./piddubna.jpg";
 import radutskiy from "./radutskiy.webp";
-import shekman from "./shekman.jpeg";
 import slobodnichenko from "./slobodnichenko.jpg";
 import stefanishyna from "./stefanishyna.jpg";
 import stefanyshyna from "./stefanyshyna.jpg";
@@ -16,8 +15,10 @@ import madsen from "./madsen.jpg";
 import vinsent from "./vinsent.jpg";
 import boki from "./boki.jpg";
 import rene from "./rene.jpg";
+import chernuchuk from "./chernuchuk.jpg";
 
 export {
+  chernuchuk,
   boki,
   rene,
   mohamed,
@@ -27,7 +28,6 @@ export {
   nizhynskyi,
   piddubna,
   radutskiy,
-  shekman,
   slobodnichenko,
   stefanishyna,
   stefanyshyna,

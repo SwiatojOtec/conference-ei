@@ -10,7 +10,6 @@ import {
   nizhynskyi,
   piddubna,
   radutskiy,
-  shekman,
   slobodnichenko,
   stefanishyna,
   stefanyshyna,
@@ -25,6 +24,7 @@ import {
   madsen,
   rene,
   boki,
+  chernuchuk,
 } from "@/public/images/speakers/index";
 
 function SpeakersNew() {
@@ -112,10 +112,10 @@ function SpeakersNew() {
       image: sumchuk,
     },
     {
-      id: "7146704685",
-      name: t("7146704685.name"),
-      position: t("7146704685.position"),
-      image: shekman,
+      id: "0828195891",
+      name: t("0828195891.name"),
+      position: t("0828195891.position"),
+      image: chernuchuk,
     },
     {
       id: "7093669078",
