@@ -1,15 +1,16 @@
-import React, { memo } from "react";
+import React, { memo, useMemo } from "react";
 import {
   gfa,
   expertiseFrance,
   uaExperts,
   legalAdwiser,
-  publicHealth,
+  publicHealthUa,
+  publicHealthEng,
   who,
   thl,
 } from "@/public/icons/index";
 import Image, { StaticImageData } from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 interface PartnerProps {
   image: StaticImageData;
@@ -31,6 +32,14 @@ Partner.displayName = "Partner";
 
 const Partners: React.FC = () => {
   const t = useTranslations("partners");
+
+  const locale = useLocale();
+
+  const publicHealth = useMemo(
+    () => (locale === "en" ? publicHealthEng : publicHealthUa),
+    [locale],
+  );
+
   const partners = [
     { id: "4525287679", image: publicHealth, alt: "Public Health" },
     { id: "1806615645", image: gfa, alt: "GFA" },

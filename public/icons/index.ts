@@ -10,17 +10,19 @@ import fundedByEU from "./fundedbyEU.png";
 import gfa from "./GFA.png";
 import monLogoUa from "./MOHLogoUa.png";
 import monLogoEng from "./MOHLogoENG.png";
-import publicHealth from "./public-health.png";
 import thl from "./thl.svg";
 import fundedByEuUkr from "./fundedByEuUkr.png";
+import publicHealthUa from "./public-health-mft-ua.png";
+import publicHealthEng from "./public-health-mft-en.png";
 
 export {
+  publicHealthUa,
+  publicHealthEng,
   thl,
   fundedByEuUkr,
   monLogoUa,
   monLogoEng,
   burger,
-  publicHealth,
   close,
   euEmbassy,
   expertiseFrance,
