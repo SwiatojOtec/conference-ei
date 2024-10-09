@@ -16,6 +16,12 @@ import vinsent from "./vinsent.jpg";
 import boki from "./boki.jpg";
 import rene from "./rene.jpg";
 import chernuchuk from "./chernuchuk.jpg";
+import galina from "./galina.jpg";
+import gusak from "./gusak.jpg";
+import mashkevich from "./mashkevich.jpg";
+import onyschenko from "./onyschenko.jpg";
+import savchuk from "./savchuk.jpg";
+import schleuning from "./schleuning.jpg";
 
 export {
   chernuchuk,
@@ -36,4 +42,10 @@ export {
   habicht,
   kyriakides,
   liashko,
+  galina,
+  gusak,
+  mashkevich,
+  onyschenko,
+  schleuning,
+  savchuk,
 };

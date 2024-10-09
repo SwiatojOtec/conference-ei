@@ -25,6 +25,12 @@ import {
   rene,
   boki,
   chernuchuk,
+  galina,
+  gusak,
+  mashkevich,
+  onyschenko,
+  savchuk,
+  schleuning,
 } from "@/public/images/speakers/index";
 
 function SpeakersNew() {
@@ -64,6 +70,12 @@ function SpeakersNew() {
       image: kyriakides,
     },
     {
+      id: "7883649566",
+      name: t("7883649566.name"),
+      position: t("7883649566.position"),
+      image: galina,
+    },
+    {
       id: "152942140630",
       name: t("152942140630.name"),
       position: t("152942140630.position"),
@@ -74,6 +86,18 @@ function SpeakersNew() {
       name: t("6600130713.name"),
       position: t("6600130713.position"),
       image: slobodnichenko,
+    },
+    {
+      id: "5450440301",
+      name: t("5450440301.name"),
+      position: t("5450440301.position"),
+      image: gusak,
+    },
+    {
+      id: "8736333714",
+      name: t("8736333714.name"),
+      position: t("8736333714.position"),
+      image: schleuning,
     },
     {
       id: "0181458066",
@@ -106,16 +130,22 @@ function SpeakersNew() {
       image: mohamed,
     },
     {
+      id: "0828195891",
+      name: t("0828195891.name"),
+      position: t("0828195891.position"),
+      image: chernuchuk,
+    },
+    {
       id: "9837450329",
       name: t("9837450329.name"),
       position: t("9837450329.position"),
       image: sumchuk,
     },
     {
-      id: "0828195891",
-      name: t("0828195891.name"),
-      position: t("0828195891.position"),
-      image: chernuchuk,
+      id: "9969099340",
+      name: t("9969099340.name"),
+      position: t("9969099340.position"),
+      image: mashkevich,
     },
     {
       id: "7093669078",
@@ -134,6 +164,18 @@ function SpeakersNew() {
       name: t("4239296445.name"),
       position: t("4239296445.position"),
       image: piddubna,
+    },
+    {
+      id: "5188574604",
+      name: t("5188574604.name"),
+      position: t("5188574604.position"),
+      image: onyschenko,
+    },
+    {
+      id: "7011523267",
+      name: t("7011523267.name"),
+      position: t("7011523267.position"),
+      image: savchuk,
     },
     {
       id: "4904138034",
