@@ -70,7 +70,17 @@ const Footer: React.FC = () => {
             </div>
           </div>
           <aside className="mt-4">
-            <p className="text-center text-white">Copyright © {currentYear} - All right reserved</p>
+            <p className="text-center text-white text-sm">
+              Copyright © {currentYear} - All right reserved
+            </p>
+            <p className="text-xs font-light tracking-normal leading-[24px] text-white text-center font-monserat">
+              Згода на фото- та відеозйомку. Реєструючись на конференцію та своєю присутністю на ній
+              ви надаєте згоду на фото- та відеозйомку. Відео/фотографії можуть бути використані для
+              рекламування Європейського Союзу установами ЄС та «Надання підтримки Україні у
+              розвитку сучасної системи охорони здоров’я» на веб-сторінках, у соціальних мережах,
+              інформаційних бюлетенях, листівках, прес-релізах, публікаціях та/або інших
+              комунікаційних матеріалах.
+            </p>
           </aside>
         </div>
       </div>
