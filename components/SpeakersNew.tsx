@@ -31,6 +31,7 @@ import {
   onyschenko,
   savchuk,
   schleuning,
+  waligora,
 } from "@/public/images/speakers/index";
 
 function SpeakersNew() {
@@ -104,6 +105,12 @@ function SpeakersNew() {
       name: t("0181458066.name"),
       position: t("0181458066.position"),
       image: rene,
+    },
+    {
+      id: "2539850355",
+      name: t("2539850355.name"),
+      position: t("2539850355.position"),
+      image: waligora,
     },
     {
       id: "7809504446",

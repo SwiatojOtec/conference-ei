@@ -22,9 +22,11 @@ import mashkevich from "./mashkevich.jpg";
 import onyschenko from "./onyschenko.jpg";
 import savchuk from "./savchuk.jpg";
 import schleuning from "./schleuning.jpg";
+import waligora from "./waligora.jpg";
 
 export {
   chernuchuk,
+  waligora,
   boki,
   rene,
   mohamed,
