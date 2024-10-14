@@ -10,7 +10,7 @@
   "hero": {
     "title": "European Integration of Ukraine: ",
     "subtitle": "Healthcare",
-    "streaming_time": "Streaming time: 9:30",
+    "streaming_time": "Streaming time: 10:00",
     "streaming_date": "October 16th, 2024",
     "action_btn": "Registration",
     "event_location": "Hilton Hotel, 30 Tarasa Shevchenka Blvd, Kyiv"
@@ -114,7 +114,7 @@
     },
     "4740672106": {
       "name": "Mykola Fedko",
-      "position": "General Director of Farmkhim"
+      "position": "General Director of Pharmhim LTD"
     },
     "4239296445": {
       "name": "Yevgeniya Piddubna",
@@ -151,6 +151,10 @@
     "2539850355": {
       "name": "Jaroslaw Waligora",
       "position": "Deputy Head of Health Security Unit, Directorate-General for Health and Food Safety, European Commission"
+    },
+    "1284791861": {
+      "name": "Bob Saum",
+      "position": "World Bank Regional Country Director for Eastern Europe"
     }
   },
   "partners": {

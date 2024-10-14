@@ -23,8 +23,10 @@ import onyschenko from "./onyschenko.jpg";
 import savchuk from "./savchuk.jpg";
 import schleuning from "./schleuning.jpg";
 import waligora from "./waligora.jpg";
+import saum from "./saum.png";
 
 export {
+  saum,
   chernuchuk,
   waligora,
   boki,

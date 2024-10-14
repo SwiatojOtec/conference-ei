@@ -32,6 +32,7 @@ import {
   savchuk,
   schleuning,
   waligora,
+  saum,
 } from "@/public/images/speakers/index";
 
 function SpeakersNew() {
@@ -75,6 +76,12 @@ function SpeakersNew() {
       name: t("7883649566.name"),
       position: t("7883649566.position"),
       image: galina,
+    },
+    {
+      id: "1284791861",
+      name: t("1284791861.name"),
+      position: t("1284791861.position"),
+      image: saum,
     },
     {
       id: "152942140630",
