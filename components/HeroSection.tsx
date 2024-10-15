@@ -3,6 +3,8 @@
 import React, { useMemo } from "react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
+import { youtube } from "@/public/icons/index";
 
 const HeroSection: React.FC = () => {
   const t = useTranslations("hero");
@@ -36,13 +38,41 @@ const HeroSection: React.FC = () => {
             {translations.title}
           </h1>
           <div className="flex flex-col-reverse gap-3 max-sm:mt-10 mt-20 justify-center">
-            <div className="flex space-x-3 max-md:flex-col max-md:content-start max-md:flex-wrap md:content-center max-md:space-y-2">
-              <button className="bg-transparent rounded-[40px] self-start max-sm:text-base text-2xl max-sm:px-3 max-sm:py-2 px-5 py-4 text-white border-2 border-white border-solid text-nowrap font-monserat">
-                {translations.streamingTime}
-              </button>
-              <button className="bg-white rounded-[40px] text-black max-sm:text-base text-2xl self-start max-sm:px-3 max-sm:py-2 px-5 py-4 text-nowrap font-monserat">
-                {translations.streamingDate}
-              </button>
+            <div className="flex justify-between items-center max-[424px]:flex-col max-[424px]:space-y-5 gap-1">
+              <div className="flex space-x-3 max-lg:flex-col max-lg:content-start max-lg:flex-wrap lg:content-center max-lg:space-y-2">
+                <button className="bg-transparent rounded-[40px] self-start max-sm:text-base text-2xl max-sm:px-3 max-sm:py-2 px-5 py-4 text-white border-2 border-white border-solid text-nowrap font-monserat">
+                  {translations.streamingTime}
+                </button>
+                <button className="bg-white rounded-[40px] text-black max-sm:text-base text-2xl self-start max-sm:px-3 max-sm:py-2 px-5 py-4 text-nowrap font-monserat">
+                  {translations.streamingDate}
+                </button>
+              </div>
+              <div className="flex flex-col lg:flex-row max-[424px]:flex-row max-[424px]:space-x-1 min-[424px]:max-lg:space-y-3 justify-center items-center lg:space-x-2 xl:space-x-5 gap-1 mx-auto">
+                <div className="flex space-x-3 text-white text-base sm:text-2xl md:text-4xl justify-center items-center uppercase ">
+                  <Link href="https://youtube.com/live/OlQk-xjVhkU?feature=share" target="_blank">
+                    <Image
+                      src={youtube}
+                      alt={youtube.src}
+                      width={48}
+                      height={youtube.height}
+                      className="min-w-12 sm:w-16 opacity-90 hover:opacity-100 hover:scale-105 transition-transform duration-300 ease-in-out"
+                    />
+                  </Link>
+                  <span>ua</span>
+                </div>
+                <div className="flex space-x-3 text-white text-base sm:text-2xl md:text-4xl justify-center items-center uppercase">
+                  <Link href="https://youtube.com/live/acfxScsc7m8?feature=share" target="_blank">
+                    <Image
+                      src={youtube}
+                      alt={youtube.src}
+                      width={48}
+                      height={youtube.height}
+                      className="min-w-12 sm:w-16 opacity-90 hover:opacity-100 hover:scale-105 transition-transform duration-300 ease-in-out"
+                    />
+                  </Link>
+                  <span>en</span>
+                </div>
+              </div>
             </div>
 
             <h1 className="text-5xl max-sm:text-3xl max-md:text-4xl max-[400px]:text-xl xl:text-6xl 2xl:text-7xl max-xl:w-auto text-nowrap text-center font-bold leading-tight uppercase text-white ">
@@ -51,7 +81,7 @@ const HeroSection: React.FC = () => {
           </div>
           <div className="flex flex-col max-lg:space-y-10 lg:flex-row lg:space-x-10 justify-end max-sm:mt-10 mt-20 md:px-96 text-white items-center">
             <Link href="https://forms.gle/HCuSTKTThTU5ekzD9">
-              <button className="max-[420px]:px-7 max-[420px]:py-4 px-14 py-6 bg-[#1B27DB] text-white rounded-[720px] border-none max-sm:text-base text-2xl text-nowrap hover:bg-white hover:text-black transition-all font-monserat">
+              <button className="max-[420px]:px-7 max-[420px]:py-4 px-14 py-6 bg-[#1B27DB] text-white rounded-[720px] border-none max-sm:text-base text-2xl text-nowrap hover:bg-white hover:text-black transition-all duration-300 ease-in-out font-monserat">
                 {translations.actionBtn}
               </button>
             </Link>

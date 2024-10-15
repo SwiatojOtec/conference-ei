@@ -14,8 +14,10 @@ import thl from "./thl.svg";
 import fundedByEuUkr from "./fundedByEuUkr.png";
 import publicHealthUa from "./public-health-mft-ua.png";
 import publicHealthEng from "./public-health-mft-en.png";
+import youtube from "./youtube.png";
 
 export {
+  youtube,
   publicHealthUa,
   publicHealthEng,
   thl,
