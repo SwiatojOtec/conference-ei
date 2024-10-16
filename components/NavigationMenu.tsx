@@ -29,8 +29,13 @@ const NavigationMenu = ({ burger, closeBurger }: MenuItemsPropsTypes) => {
         url: "#program",
       },
       { id: "8441915618", label: t("speakers"), active: false, url: "#speakers" },
+      {
+        id: "7876577745",
+        label: t("photos"),
+        active: false,
+        url: "https://fedorov.gallery.photo/gallery/ukraine-eu-integration-healthcare/",
+      },
       { id: "8950054252", label: t("partners"), active: false, url: "#partners" },
-      // { id: "2382149563", label: t("joint"), active: false, url: "#request" },
     ],
     [t],
   );
@@ -52,6 +57,10 @@ const NavigationMenu = ({ burger, closeBurger }: MenuItemsPropsTypes) => {
     [closeBurger],
   );
 
+  const isExternalLink = (menuUrl: string) => {
+    return menuUrl.startsWith("https");
+  };
+
   return (
     <nav className="flex items-center">
       <ul
@@ -65,6 +74,7 @@ const NavigationMenu = ({ burger, closeBurger }: MenuItemsPropsTypes) => {
             <li key={menuItem.id}>
               <Link
                 href={menuItem.url}
+                target={isExternalLink(menuItem.url) ? "_blank" : "_self"}
                 onClick={() => handleClick(menuItem)}
                 className={`${
                   burger && "px-6 py-4"
