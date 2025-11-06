@@ -34,11 +34,6 @@ const ThematicPanels: React.FC = () => {
         title: t("thematic_title_5"),
         description: t("thematic_desc_5"),
       },
-      {
-        id: "8964369687",
-        title: t("thematic_title_6"),
-        description: t("thematic_desc_6"),
-      },
     ],
     [t],
   );
@@ -76,30 +71,17 @@ const ThematicPanels: React.FC = () => {
                     <div
                       id={`accordion-title-${panel.id}`}
                       className="flex items-center justify-between py-3 border-b border-white cursor-pointer text-lg md:text-xl"
-                      onClick={() => {
-                        togglePanel(panel.id);
-                        setTimeout(() => {
-                          const headerElement = document.getElementById(
-                            `accordion-title-${panel.id}`,
-                          );
-                          if (headerElement) {
-                            headerElement.scrollIntoView({
-                              behavior: "smooth",
-                              block: "start", // Scroll to the start
-                            });
-                          }
-                        }, 500);
-                      }}>
+                      onClick={() => togglePanel(panel.id)}>
                       <span>{panel.title}</span>
                       <span className="ml-2">{openPanelId === panel.id ? "▲" : "▼"}</span>
                     </div>
 
                     {/* Collapsible Description */}
                     <div
-                      className={`transition-all duration-300 ease-in-out text-justify overflow-hidden ${
-                        openPanelId === panel.id ? "max-h-full opacity-100" : "max-h-0 opacity-0"
+                      className={`transition-all duration-500 ease-in-out text-justify overflow-hidden ${
+                        openPanelId === panel.id ? "max-h-[500px] opacity-100 mt-3" : "max-h-0 opacity-0"
                       }`}>
-                      <p className="max-sm:text-base md:text-lg mt-3 text-white">
+                      <p className="max-sm:text-base md:text-lg text-white">
                         {panel.description}
                       </p>
                     </div>

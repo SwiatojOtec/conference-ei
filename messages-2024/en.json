@@ -1,0 +1,95 @@
+{
+  "navigation": {
+    "about": "About the Conference",
+    "thematic": "Discussion panels",
+    "agenda": "Agenda",
+    "speakers": "Speakers",
+    "partners": "Partners",
+    "joint": "Joint Statement",
+    "photos": "Photos"
+  },
+  "hero": {
+    "title": "European Integration of Ukraine: ",
+    "subtitle": "Healthcare",
+    "streaming_time": "Streaming time: 10:00",
+    "streaming_date": "October 16th, 2024",
+    "action_btn": "Registration",
+    "event_location": "Hilton Hotel, 30 Tarasa Shevchenka Blvd, Kyiv"
+  },
+  "eventHighlights": {
+    "title": "Conference Expectations",
+    "event_title_1": "Presentation of Ukraine's European integration achievements in the healthcare sector",
+    "event_title_2": "Potential contribution of the Ukrainian healthcare system to the EU space",
+    "event_title_3": "Establishment of bilateral cooperation in healthcare with other EU member states",
+    "event_title_4": "Financial and investment prospects for the Ukrainian medical space within the European integration process"
+  },
+  "thematic_panels": {
+    "title": "Discussion panels",
+    "thematic_title_1": "Policy Dialogue: Healthcare in Ukraine on the Path to European Integration",
+    "thematic_desc_1": "The panel will focus on the sustainability of Ukraine's healthcare system in the context of European integration and its role in the European space. Speakers will discuss the need to consolidate efforts between the state, business and the public on the principle of \"One voice\", as well as the perspective of integrating the Ukrainian healthcare system into the European one. Particular attention will be paid to the assessment of the current state of cooperation between Ukraine and the EU, international cooperation, and global challenges and opportunities in the process of European integration.",
+    "thematic_title_2": "Emergency Preparedness: Public Health and the Blood System",
+    "thematic_desc_2": "The panel will be dedicated to the evolution of public health in Ukraine in the context of European integration. Special attention will be given to the readiness of Ukraine's public health system to respond to emergencies. The panel will assess Ukraine's experience in blood system reform and present key achievements that may be useful for European Union countries in strengthening the resilience of the blood system during emergencies. A representative from the European Commission is expected to deliver a speech on health security as a key vector for the development of public health in the European Union.",
+    "thematic_title_3": "Medical Services: European Integration Achievements and Plans for the Future",
+    "thematic_desc_3": "The panel discussion will focus on the future of Ukrainian healthcare in the European market! This panel will reveal the potential of Ukrainian healthcare services in the context of cross-border medicine and their integration into the EU's common healthcare market. Particular attention will be paid to the unique experience that Ukrainian doctors have gained during the war and its role in increasing the competitiveness of Ukrainian medicine. Representatives of the European Commission are expected to share their vision of the development of the EU's common healthcare market and current challenges in the EU healthcare system. This is a unique opportunity to learn about the key aspects that shape the new standards of medicine and healthcare on the way to European integration. Together we will discuss the implementation of European quality standards for medical care, prospects for the development of reproductive technologies, and ways to fight cancer.",
+    "thematic_title_4": "Transformation of the Ukrainian Pharmaceutical Sector to the European Market",
+    "thematic_desc_4": "We invite you to a panel discussion to explore the future of Ukrainian pharmaceuticals in the context of European integration! This panel focuses on key questions: how does Ukraine adapt its pharmaceutical standards to European ones? What steps are taken to establish state control in the pharmaceutical sector? How can simplification of drug registration accelerate access to the EU market? The panel will also discuss Ukraine's prospects in clinical trials and opportunities for expanding drug production. Special attention will be paid to the potential of Ukrainian pharmaceuticals in the European market and ways to localize manufacturing. Representatives of the European Commission are expected to speak on the European Commission's efforts to implement the EU pharmaceutical reform, current status, and future strategic plans.",
+    "thematic_title_5": "European Financial and Investment Opportunities in Healthcare",
+    "thematic_desc_5": "The panel is dedicated to the effective functioning and attraction of international financial instruments for development (grants, loans, donor assistance, etc.) and investment in the healthcare sector, in particular in the process of European integration. We will look at how private and public investments can strengthen the Ukrainian healthcare system, as well as learn about other financial sources, grants, and donor assistance that can improve the process of European integration in the healthcare sector. Representatives of the European Commission are expected to present EU financial programs related to the healthcare sector, which can be useful for strengthening Ukraine's efforts to implement European standards. Together we will open new horizons of financing and learn how to attract maximum resources for the development of the Ukrainian healthcare system!",
+    "thematic_title_6": "The Youth Vision of the Future of Ukraine's Healthcare Sector in the EU",
+    "thematic_desc_6": "We will dive into the world of young professionals' views, ambitions, and hopes for Ukraine's integration into the European Union. How do they perceive European values? What role do they see for themselves in the development of the healthcare sector? Why is European integration key for this sector? Join the discussion and find out how young people are shaping the new face of Ukrainian medicine in the European context!"
+  },
+  "joint_statement": {
+    "title": "We invite you to sign the Joint Statement",
+    "desc": "We share the values of the European Union and form one voice for the sake of implementing ambitious European integration reforms! Anyone can join the signing of the statement and contribute to strengthening Ukraine's position in the European arena. Your participation is important to us and will demonstrate your willingness to cooperate for the common goal of building an effective and sustainable healthcare system.",
+    "joint_text_btn": "Sign the Joint Statement",
+    "how_to_join_btn": "How to join the Statement",
+    "join_guide": {
+      "title": "Please send an official letter of intent to sign the Joint Statement signed by the head of your organization (in any form) to the following address:",
+      "number_title": "For more information, please call:",
+      "number": "+380 66 385 40 29 (Natalia Vasylenko).",
+      "ceremony": "A ceremony of signing the Joint Statement will be held during the conference."
+    }
+  },
+  "agenda": { "title": "Agenda" },
+  "speakers": {
+    "title": "Speakers",
+    "1349899921": { "name": "Viktor Liashko", "position": "Minister of Health of Ukraine" },
+    "9203651569": { "name": "Olha Stefanishyna", "position": "Vice Prime Minister for European and Euro-Atlantic Integration of Ukraine, Minister of Justice of Ukraine" },
+    "5101953357": { "name": "Mykhailo Radutskyi", "position": "Chairman of the Verkhovna Rada Committee on National Health, Medical Assistance and Medical Insurance" },
+    "0583925130": { "name": "Olga Stefanyshyna", "position": "Head of the Subcommittee on European Integration of the Verkhovna Rada Committee" },
+    "5093967432": { "name": "Stella Kyriakides", "position": "European Commissioner for Health and Food Safety" },
+    "152942140630": { "name": "Jarno Habicht", "position": "WHO Representative in Ukraine at World Health Organization" },
+    "6600130713": { "name": "Maryna Slobodnichenko", "position": "Deputy Minister of Health of Ukraine for European Integration" },
+    "0181458066": { "name": "Rene Steiner", "position": "Policy Officer, Delegation of the European Union to Ukraine" },
+    "7809504446": { "name": "Borisa Falatar", "position": "European Health Emergency Preparedness and Response Authority, European Commission" },
+    "5570982942": { "name": "Marlene Rosemarie Madsen", "position": "Deputy Director of the Ukraine Service, Directorate-General European Neighbourhood Policy and Enlargement Negotiations, European Commission" },
+    "9751212000": { "name": "Vincent Vial", "position": "Health Lead for Ukraine Expertise France" },
+    "9837450329": { "name": "Oleh Samchuk", "position": "General Director of the Lviv Territorial Medical Association, a multidisciplinary clinical hospital of intensive care and emergency medical care" },
+    "0828195891": { "name": "Serhiy Chernyshuk", "position": "Medical Director of the 'Okhmatdyt' NDSL" },
+    "3751567084": { "name": "Mohammed Farouk", "position": "Key Expert on Blood Safety of EU Project 'Support to Ukraine for Developing a Modern Public Health System'" },
+    "7093669078": { "name": "Serhiy Sur", "position": "Director of \"ARTERIUM LTD\" LLC" },
+    "4740672106": { "name": "Mykola Fedko", "position": "General Director of Pharmhim LTD" },
+    "4239296445": { "name": "Yevgeniya Piddubna", "position": "Head of the SUP Healthcare Committee, Director of Corporate Communications at Farmak" },
+    "4904138034": { "name": "Serhii Nizhynskyi", "position": "Head of the NGO \"UA Experts\", Advisor to the Vice Prime Minister for European and Euro-Atlantic Integration" },
+    "7883649566": { "name": "Sandra Gallina", "position": "Director General for Health and Food Safety, European Commission" },
+    "5450440301": { "name": "Natalia Husak", "position": "Head of the National Health Service of Ukraine" },
+    "9969099340": { "name": "Oleksandra Mashkevych", "position": "Chief Medical Director of the \"Dobrobut\" Medical Network" },
+    "5188574604": { "name": "Sergiy Onyshchehnko", "position": "Pharmaceutical Firm Darnytsia, Supervisory Board Member" },
+    "7011523267": { "name": "Taras Savchuk", "position": "Export Director, Biopharma Plasma" },
+    "8736333714": { "name": "Stefan Schleuning", "position": "Head of Cooperation Programs at the EU Delegation to Ukraine" },
+    "2539850355": { "name": "Jaroslaw Waligora", "position": "Deputy Head of Health Security Unit, Directorate-General for Health and Food Safety, European Commission" },
+    "1284791861": { "name": "Bob Saum", "position": "World Bank Regional Country Director for Eastern Europe" }
+  },
+  "partners": { "title": "Partners" },
+  "footer": {
+    "about": "About the Conference",
+    "thematic": "Discussion panels",
+    "agenda": "Agenda",
+    "speakers": "Speakers",
+    "partners": "Partners",
+    "joint": "Joint Statement",
+    "contacts": "Contacts",
+    "rules": "Consent to Photography and Video Recording By registering for and attending the conference, you provide your consent to being photographed and video recorded. These recordings may be used to promote the European Union by EU institutions, as well as the project 'Support to Ukraine for Developing a Modern Public Health System'. Photos and videos may be featured on websites, social media platforms, newsletters, leaflets, press releases, publications, and other communication materials"
+  }
+}
+

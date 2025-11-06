@@ -90,7 +90,7 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className="focus-within:scroll-smooth">
+    <html lang={locale} className="scroll-smooth">
       <body
         className={`${inter.variable} ${evolventa.variable} ${grotesk.variable} ${monserat.variable}`}>
         <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>

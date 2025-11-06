@@ -1,7 +1,16 @@
-import React, { memo } from "react";
-import { legalAdwiser } from "@/public/icons/index";
+import React, { memo, useMemo } from "react";
+import {
+  gfa,
+  expertiseFrance,
+  uaExperts,
+  legalAdwiser,
+  publicHealthUa,
+  publicHealthEng,
+  who,
+  thl,
+} from "@/public/icons/index";
 import Image, { StaticImageData } from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 interface PartnerProps {
   image: StaticImageData;
@@ -21,11 +30,23 @@ const Partner: React.FC<PartnerProps> = memo(({ image, alt }) => (
 
 Partner.displayName = "Partner";
 
-const Partners: React.FC = () => {
+const Partners2024: React.FC = () => {
   const t = useTranslations("partners");
+  const locale = useLocale();
+
+  const publicHealth = useMemo(
+    () => (locale === "en" ? publicHealthEng : publicHealthUa),
+    [locale],
+  );
 
   const partners = [
-    { id: "7672886314", image: legalAdwiser, alt: "Legal Adviser" },
+    { id: "4525287679", image: publicHealth, alt: "Public Health" },
+    { id: "1806615645", image: gfa, alt: "GFA" },
+    { id: "4375693792", image: thl, alt: "THL" },
+    { id: "1655657187", image: who, alt: "ВООЗ" },
+    { id: "8010212658", image: expertiseFrance, alt: "Expertise-France" },
+    { id: "7672886314", image: legalAdwiser, alt: "Legal-Adwiser" },
+    { id: "8692913525", image: uaExperts, alt: "EU-Experts" },
   ];
 
   return (
@@ -52,6 +73,7 @@ const Partners: React.FC = () => {
   );
 };
 
-Partners.displayName = "Partners";
+Partners2024.displayName = "Partners2024";
 
-export default Partners;
+export default Partners2024;
+

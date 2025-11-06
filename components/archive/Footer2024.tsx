@@ -1,13 +1,12 @@
 "use client";
 
 import React, { useMemo } from "react";
+import { EUI_logo_4 } from "@/public/icons/index";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/routing";
 
-const Footer: React.FC = () => {
+const Footer2024: React.FC = () => {
   const t = useTranslations("footer");
-  const tPrevious = useTranslations("previousConferences");
 
   const links = useMemo(
     () => [
@@ -34,13 +33,9 @@ const Footer: React.FC = () => {
         <div className="text-white text-base bg-gradient-to-r from-[#668ef3] to-[#29337b] rounded-[40px] px-[4vw] py-12 md:py-[2vw] mt-4">
           <div className="footer max-md:footer-center">
             <aside className="flex-shrink-0">
-              <Image
-                src="/images/pharma-2025-white.png"
-                alt="UA-EU Strategic Partnership Pharmaceutical Sector"
-                width={300}
-                height={60}
-                className="h-auto w-48 object-contain"
-              />
+              <div className="max-w-16">
+                <Image src={EUI_logo_4} alt="EUI_logo_4" width={64} height={77} priority />
+              </div>
             </aside>
             <nav>
               <div className="grid grid-cols-1 gap-4">
@@ -60,24 +55,16 @@ const Footer: React.FC = () => {
                 ))}
               </div>
             </nav>
-            <nav>
-              <h6 className="footer-title">{tPrevious("title")}</h6>
-              <div className="grid grid-cols-1 gap-4">
-                <Link href={tPrevious("conference_2024.url")} className="link link-hover" target="_blank" rel="noopener noreferrer">
-                  {tPrevious("conference_2024.title")}
-                </Link>
-              </div>
-            </nav>
             <div>
               <h6 className="footer-title">{t("contacts")}</h6>
               <p>
-                <a href="mailto:Horbatiuklv7@gmail.com" className="link link-hover">
-                  Horbatiuklv7@gmail.com
+                <a href="mailto:vasylenko.nk@gmail.com" className="link link-hover">
+                  vasylenko.nk@gmail.com
                 </a>
               </p>
               <p className="mt-2">
-                <a href="mailto:o.v.isayeva10@gmail.com" className="link link-hover">
-                  o.v.isayeva10@gmail.com
+                <a href="mailto:l.a.ukrainets@moz.gov.ua" className="link link-hover">
+                  l.a.ukrainets@moz.gov.ua
                 </a>
               </p>
             </div>
@@ -96,6 +83,9 @@ const Footer: React.FC = () => {
   );
 };
 
-Footer.displayName = "Footer";
+Footer2024.displayName = "Footer2024";
 
-export default Footer;
+export default Footer2024;
+
+
+

@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { youtube } from "@/public/icons/index";
 
-const HeroSection: React.FC = () => {
+const HeroSection2024: React.FC = () => {
   const t = useTranslations("hero");
 
   const translations = useMemo(
@@ -48,10 +48,17 @@ const HeroSection: React.FC = () => {
               {translations.streamingDate}
             </div>
           </div>
-          <div className="flex justify-center items-center max-sm:mt-10 mt-16">
-            <Link href="https://docs.google.com/forms/d/1-fCkezUFcbg_uGj0PpfxsPwizHbwse2VrAREUC5WnHY/edit" target="_blank">
-              <button className="max-[420px]:px-7 max-[420px]:py-4 px-14 py-6 bg-[#1B27DB] text-white rounded-[720px] border-none max-sm:text-base text-2xl text-nowrap hover:bg-white hover:text-black transition-all duration-300 ease-in-out font-monserat">
-                {translations.actionBtn}
+          <div className="flex justify-center items-center gap-4 max-[540px]:flex-col max-sm:mt-10 mt-16">
+            <Link href="https://www.youtube.com/live/OlQk-xjVhkU" target="_blank" rel="noopener noreferrer">
+              <button className="flex items-center gap-2 max-[420px]:px-5 max-[420px]:py-3 px-8 py-4 bg-transparent text-white rounded-[720px] border-2 border-white max-sm:text-sm text-lg text-nowrap hover:bg-white hover:text-black transition-all duration-300 ease-in-out font-monserat">
+                <Image src={youtube} alt="YouTube" width={24} height={24} className="max-sm:w-5 max-sm:h-5" />
+                <span>UA</span>
+              </button>
+            </Link>
+            <Link href="https://www.youtube.com/live/acfxScsc7m8" target="_blank" rel="noopener noreferrer">
+              <button className="flex items-center gap-2 max-[420px]:px-5 max-[420px]:py-3 px-8 py-4 bg-transparent text-white rounded-[720px] border-2 border-white max-sm:text-sm text-lg text-nowrap hover:bg-white hover:text-black transition-all duration-300 ease-in-out font-monserat">
+                <Image src={youtube} alt="YouTube" width={24} height={24} className="max-sm:w-5 max-sm:h-5" />
+                <span>EN</span>
               </button>
             </Link>
           </div>
@@ -64,6 +71,6 @@ const HeroSection: React.FC = () => {
   );
 };
 
-HeroSection.displayName = "HeroSection";
+HeroSection2024.displayName = "HeroSection2024";
 
-export default HeroSection;
+export default HeroSection2024;

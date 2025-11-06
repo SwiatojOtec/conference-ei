@@ -7,32 +7,14 @@ import "./Embla.css";
 import ImageItem from "./ImageItem";
 import { useTranslations } from "next-intl";
 import {
-  nizhynskyi,
   piddubna,
   radutskiy,
   slobodnichenko,
   stefanishyna,
-  stefanyshyna,
-  sumchuk,
-  sur,
-  habicht,
-  kyriakides,
-  liashko,
-  mohamed,
   fedko,
-  vinsent,
-  madsen,
-  rene,
-  boki,
-  chernuchuk,
-  galina,
-  gusak,
-  mashkevich,
   onyschenko,
   savchuk,
-  schleuning,
-  waligora,
-  saum,
+  marcinke,
 } from "@/public/images/speakers/index";
 
 function SpeakersNew() {
@@ -42,10 +24,10 @@ function SpeakersNew() {
   // Speakers
   const teamMembers = [
     {
-      id: "1349899921",
-      name: t("1349899921.name"),
-      position: t("1349899921.position"),
-      image: liashko,
+      id: "5101953357",
+      name: t("5101953357.name"),
+      position: t("5101953357.position"),
+      image: radutskiy,
     },
     {
       id: "9203651569",
@@ -54,118 +36,10 @@ function SpeakersNew() {
       image: stefanishyna,
     },
     {
-      id: "5101953357",
-      name: t("5101953357.name"),
-      position: t("5101953357.position"),
-      image: radutskiy,
-    },
-    {
-      id: "0583925130",
-      name: t("0583925130.name"),
-      position: t("0583925130.position"),
-      image: stefanyshyna,
-    },
-    {
-      id: "5093967432",
-      name: t("5093967432.name"),
-      position: t("5093967432.position"),
-      image: kyriakides,
-    },
-    {
-      id: "7883649566",
-      name: t("7883649566.name"),
-      position: t("7883649566.position"),
-      image: galina,
-    },
-    {
-      id: "1284791861",
-      name: t("1284791861.name"),
-      position: t("1284791861.position"),
-      image: saum,
-    },
-    {
-      id: "152942140630",
-      name: t("152942140630.name"),
-      position: t("152942140630.position"),
-      image: habicht,
-    },
-    {
       id: "6600130713",
       name: t("6600130713.name"),
       position: t("6600130713.position"),
       image: slobodnichenko,
-    },
-    {
-      id: "5450440301",
-      name: t("5450440301.name"),
-      position: t("5450440301.position"),
-      image: gusak,
-    },
-    {
-      id: "8736333714",
-      name: t("8736333714.name"),
-      position: t("8736333714.position"),
-      image: schleuning,
-    },
-    {
-      id: "0181458066",
-      name: t("0181458066.name"),
-      position: t("0181458066.position"),
-      image: rene,
-    },
-    {
-      id: "2539850355",
-      name: t("2539850355.name"),
-      position: t("2539850355.position"),
-      image: waligora,
-    },
-    {
-      id: "7809504446",
-      name: t("7809504446.name"),
-      position: t("7809504446.position"),
-      image: boki,
-    },
-    {
-      id: "5570982942",
-      name: t("5570982942.name"),
-      position: t("5570982942.position"),
-      image: madsen,
-    },
-    {
-      id: "9751212000",
-      name: t("9751212000.name"),
-      position: t("9751212000.position"),
-      image: vinsent,
-    },
-    {
-      id: "3751567084",
-      name: t("3751567084.name"),
-      position: t("3751567084.position"),
-      image: mohamed,
-    },
-    {
-      id: "0828195891",
-      name: t("0828195891.name"),
-      position: t("0828195891.position"),
-      image: chernuchuk,
-    },
-    {
-      id: "9837450329",
-      name: t("9837450329.name"),
-      position: t("9837450329.position"),
-      image: sumchuk,
-    },
-    {
-      id: "9969099340",
-      name: t("9969099340.name"),
-      position: t("9969099340.position"),
-      image: mashkevich,
-    },
-    {
-      id: "7093669078",
-      name: t("7093669078.name"),
-      position: t("7093669078.position"),
-      image: sur,
     },
     {
       id: "4740672106",
@@ -192,10 +66,10 @@ function SpeakersNew() {
       image: savchuk,
     },
     {
-      id: "4904138034",
-      name: t("4904138034.name"),
-      position: t("4904138034.position"),
-      image: nizhynskyi,
+      id: "9876543211",
+      name: t("9876543211.name"),
+      position: t("9876543211.position"),
+      image: marcinke,
     },
   ];
 
