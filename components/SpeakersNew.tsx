@@ -12,6 +12,7 @@ import {
   slobodnichenko,
   fedko,
   marcinke,
+  kukhtenko,
 } from "@/public/images/speakers/index";
 
 function SpeakersNew() {
@@ -49,6 +50,12 @@ function SpeakersNew() {
       name: t("9876543211.name"),
       position: t("9876543211.position"),
       image: marcinke,
+    },
+    {
+      id: "1122334455",
+      name: t("1122334455.name"),
+      position: t("1122334455.position"),
+      image: kukhtenko,
     },
   ];
 
