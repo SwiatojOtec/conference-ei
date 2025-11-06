@@ -22,7 +22,7 @@ const Partner: React.FC<PartnerProps> = memo(({ image, alt }) => (
     width={image.width}
     height={image.height}
     alt={alt}
-    className="w-full max-w-[90%] max-h-32 max-sm:max-h-28 object-contain"
+    className="w-full max-w-[90%] h-24 max-sm:h-20 object-contain"
   />
 ));
 
