@@ -15,6 +15,11 @@ import fundedByEuUkr from "./fundedByEuUkr.png";
 import publicHealthUa from "./public-health-mft-ua.png";
 import publicHealthEng from "./public-health-mft-en.png";
 import youtube from "./youtube.png";
+import pharmhim from "./logo_pharmhim.png";
+import darnytsia from "./logo_darnytsia.svg";
+import farmak from "./logo_farmak_main.svg";
+import interchem from "./logo_interchem.png";
+import avly from "./avly.jpg";
 
 export {
   youtube,
@@ -34,4 +39,9 @@ export {
   EUI_logo_4,
   fundedByEU,
   gfa,
+  pharmhim,
+  darnytsia,
+  farmak,
+  interchem,
+  avly,
 };

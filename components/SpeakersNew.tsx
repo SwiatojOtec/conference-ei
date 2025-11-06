@@ -10,10 +10,7 @@ import {
   piddubna,
   radutskiy,
   slobodnichenko,
-  stefanishyna,
   fedko,
-  onyschenko,
-  savchuk,
   marcinke,
 } from "@/public/images/speakers/index";
 
@@ -28,12 +25,6 @@ function SpeakersNew() {
       name: t("5101953357.name"),
       position: t("5101953357.position"),
       image: radutskiy,
-    },
-    {
-      id: "9203651569",
-      name: t("9203651569.name"),
-      position: t("9203651569.position"),
-      image: stefanishyna,
     },
     {
       id: "6600130713",
@@ -52,18 +43,6 @@ function SpeakersNew() {
       name: t("4239296445.name"),
       position: t("4239296445.position"),
       image: piddubna,
-    },
-    {
-      id: "5188574604",
-      name: t("5188574604.name"),
-      position: t("5188574604.position"),
-      image: onyschenko,
-    },
-    {
-      id: "7011523267",
-      name: t("7011523267.name"),
-      position: t("7011523267.position"),
-      image: savchuk,
     },
     {
       id: "9876543211",

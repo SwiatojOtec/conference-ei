@@ -1,5 +1,12 @@
 import React, { memo } from "react";
-import { legalAdwiser } from "@/public/icons/index";
+import {
+  legalAdwiser,
+  pharmhim,
+  darnytsia,
+  farmak,
+  interchem,
+  avly,
+} from "@/public/icons/index";
 import Image, { StaticImageData } from "next/image";
 import { useTranslations } from "next-intl";
 
@@ -15,7 +22,7 @@ const Partner: React.FC<PartnerProps> = memo(({ image, alt }) => (
     width={image.width}
     height={image.height}
     alt={alt}
-    className="min-w-24 w-2/3 object-contain"
+    className="min-w-40 w-full max-w-full max-h-40 object-contain"
   />
 ));
 
@@ -26,6 +33,11 @@ const Partners: React.FC = () => {
 
   const partners = [
     { id: "7672886314", image: legalAdwiser, alt: "Legal Adviser" },
+    { id: "1234567890", image: pharmhim, alt: "Pharmhim" },
+    { id: "1234567891", image: darnytsia, alt: "Darnytsia" },
+    { id: "1234567892", image: farmak, alt: "Farmak" },
+    { id: "1234567893", image: interchem, alt: "InterChem" },
+    { id: "1234567894", image: avly, alt: "AVLY" },
   ];
 
   return (
