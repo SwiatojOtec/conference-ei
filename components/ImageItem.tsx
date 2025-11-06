@@ -13,8 +13,8 @@ interface ImageItemProps {
 export const ImageItem: React.FC<ImageItemProps> = ({
   url,
   className = "",
-  width = 350,
-  height = 450,
+  width = 300,
+  height = 400,
 }) => {
   const [isLoading, setIsLoading] = useState(true);
 
