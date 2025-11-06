@@ -22,7 +22,7 @@ const Partner: React.FC<PartnerProps> = memo(({ image, alt }) => (
     width={image.width}
     height={image.height}
     alt={alt}
-    className="min-w-40 w-full max-w-full max-h-40 object-contain"
+    className="min-w-40 w-full max-w-full max-h-32 max-sm:max-h-28 object-contain"
   />
 ));
 
@@ -33,11 +33,11 @@ const Partners: React.FC = () => {
 
   const partners = [
     { id: "7672886314", image: legalAdwiser, alt: "Legal Adviser" },
-    { id: "1234567890", image: pharmhim, alt: "Pharmhim" },
-    { id: "1234567891", image: darnytsia, alt: "Darnytsia" },
-    { id: "1234567892", image: farmak, alt: "Farmak" },
-    { id: "1234567893", image: interchem, alt: "InterChem" },
     { id: "1234567894", image: avly, alt: "AVLY" },
+    { id: "1234567892", image: farmak, alt: "Farmak" },
+    { id: "1234567891", image: darnytsia, alt: "Darnytsia" },
+    { id: "1234567890", image: pharmhim, alt: "Pharmhim" },
+    { id: "1234567893", image: interchem, alt: "InterChem" },
   ];
 
   return (
@@ -52,7 +52,7 @@ const Partners: React.FC = () => {
               {partners.map((partner, index) => (
                 <div
                   key={index}
-                  className="flex flex-col w-full grow max-md:max-w-[45%] max-w-80 justify-center min-w-20 min-h-40 max-[400px]:min-h-32 max-h-60 items-center px-10 py-6 max-[400px]:py-3 bg-white rounded-3xl border border-solid border-slate-300 max-md:px-3 max-md:mt-4">
+                  className="flex flex-col w-full grow max-md:max-w-[45%] max-w-80 justify-center min-w-20 min-h-28 max-sm:min-h-24 max-h-44 max-sm:max-h-36 items-center px-10 py-6 max-sm:py-4 max-[400px]:py-3 bg-white rounded-3xl border border-solid border-slate-300 max-md:px-3 max-md:mt-4">
                   <Partner {...partner} />
                 </div>
               ))}
