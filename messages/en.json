@@ -14,7 +14,8 @@
     "streaming_time": "Start at 9:00",
     "streaming_date": "December 9, 2025",
     "action_btn": "Register",
-    "event_location": "Radisson BLU Hotel Lietuva, Vilnius, Lithuania"
+    "event_location": "Radisson BLU Hotel Lietuva, Vilnius, Lithuania",
+    "hotel_recommendation": "We recommend accommodation at this hotel. Please contact the organizers to receive a promo code for a discount."
   },
   "eventHighlights": {
     "title": "Conference Expectations",
