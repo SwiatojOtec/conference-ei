@@ -56,7 +56,7 @@ const HeroSection: React.FC = () => {
               </button>
             </Link>
           </div>
-          <p className="mt-10 max-sm:text-sm text-lg text-center font-light tracking-normal leading-tight text-white text-opacity-50 max-md:max-w-full font-monserat">
+          <p className="mt-10 max-sm:text-sm text-lg text-center font-light tracking-normal leading-tight text-white text-opacity-70 max-md:max-w-full font-monserat">
             {translations.eventLocation}
           </p>
           <p className="mt-3 max-sm:text-xs text-base text-center font-light tracking-normal leading-tight text-white text-opacity-70 max-md:max-w-full font-monserat">
