@@ -1,7 +1,6 @@
 import React from "react";
 import {
   ThematicPanels,
-  ConferenceAgenda,
 } from "@/components/index";
 import Header2024 from "@/components/archive/Header2024";
 import Footer2024 from "@/components/archive/Footer2024";
@@ -9,6 +8,7 @@ import SpeakersNew2024 from "@/components/archive/SpeakersNew2024";
 import HeroSection2024 from "@/components/archive/HeroSection2024";
 import Partners2024 from "@/components/archive/Partners2024";
 import EventHighlights2024 from "@/components/archive/EventHighlights2024";
+import ConferenceAgenda2024 from "@/components/archive/ConferenceAgenda2024";
 
 function Archive2024() {
   return (
@@ -18,7 +18,7 @@ function Archive2024() {
         <HeroSection2024 />
         <EventHighlights2024 />
         <ThematicPanels />
-        <ConferenceAgenda />
+        <ConferenceAgenda2024 />
         <SpeakersNew2024 />
         <Partners2024 />
       </main>

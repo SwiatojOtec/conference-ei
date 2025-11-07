@@ -4,6 +4,7 @@ import slobodnichenko from "./slobodnichenko.jpg";
 import fedko from "./fedko.jpg";
 import marcinke from "./marcinke.jpg";
 import kukhtenko from "./kukhtenko.jpg";
+import pilkiewicz from "./pilkiewicz.jpg";
 
 export {
   piddubna,
@@ -12,4 +13,5 @@ export {
   fedko,
   marcinke,
   kukhtenko,
+  pilkiewicz,
 };

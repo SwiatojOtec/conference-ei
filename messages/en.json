@@ -28,7 +28,7 @@
     "thematic_title_1": "UA - EU Dialogue: Political Dimension (Part 1)",
     "thematic_desc_1": "Discussion of EU expansion as a key factor in the implementation of the Pharma Package, European Biotech Act, and Critical Medicines Act",
     "thematic_title_2": "Ukraine's Pharmaceutical Industry as a Security Factor for the EU",
-    "thematic_desc_2": "Presentations by 6–9 Ukrainian pharmaceutical companies showcasing their role in ensuring the stability and resilience of medicine supply, their integration potential into European value chains, and their innovative products",
+    "thematic_desc_2": "Presentations by Ukrainian pharmaceutical companies showcasing their role in ensuring the stability and resilience of medicine supply, their integration potential into European value chains, and their innovative products",
     "thematic_title_3": "UA - EU Dialogue: Political Dimension (Part 2)",
     "thematic_desc_3": "The impact of political decisions on the integration of the Ukrainian pharmaceutical system into European standards",
     "thematic_title_4": "Business Analytics and Innovation: Prospects for Strategic Partnerships between Europe and Ukraine",
@@ -90,6 +90,10 @@
     "1122334455": {
       "name": "Oleksandr Kukhtenko",
       "position": "Rector of the National University of Pharmacy (Kharkiv)"
+    },
+    "9876543215": {
+      "name": "Michał Pilkiewicz",
+      "position": "Senior Director IQVIA & General Manager of the region Ukraine, Adriatic & Baltic"
     },
     "9876543213": {
       "name": "Michał Szylkiewicz",
