@@ -14,6 +14,9 @@ import {
   marcinke,
   kukhtenko,
   pilkiewicz,
+  jakubauskiene,
+  naumovas,
+  kunda,
 } from "@/public/images/speakers/index";
 
 function SpeakersNew() {
@@ -27,6 +30,18 @@ function SpeakersNew() {
       name: t("5101953357.name"),
       position: t("5101953357.position"),
       image: radutskiy,
+    },
+    {
+      id: "9876543220",
+      name: t("9876543220.name"),
+      position: t("9876543220.position"),
+      image: jakubauskiene,
+    },
+    {
+      id: "9876543221",
+      name: t("9876543221.name"),
+      position: t("9876543221.position"),
+      image: naumovas,
     },
     {
       id: "6600130713",
@@ -63,6 +78,12 @@ function SpeakersNew() {
       name: t("9876543215.name"),
       position: t("9876543215.position"),
       image: pilkiewicz,
+    },
+    {
+      id: "9876543222",
+      name: t("9876543222.name"),
+      position: t("9876543222.position"),
+      image: kunda,
     },
   ];
 

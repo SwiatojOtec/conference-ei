@@ -28,23 +28,23 @@ const Header: React.FC = () => {
           <BurgerMenu onOpenBurger={setIsOpenBurger} />
         ) : (
           <div className="flex gap-5 justify-between items-center px-1 lg:px-5 xl:px-12 w-full max-md:px-5 max-md:max-w-full">
-            <div className="flex flex-col xl:flex-row xl:items-center gap-3 xl:gap-5">
+            <div className="flex flex-row items-center gap-2 xl:gap-5">
               <Image
                 src="/images/pharma-2025-black.png"
                 alt="UA-EU Strategic Partnership Pharmaceutical Sector"
                 width={400}
                 height={80}
                 priority
-                className="h-16 w-auto object-contain"
+                className="max-sm:h-8 h-16 w-auto object-contain"
               />
-              <div className="flex space-x-1 max-w-64 h-20">
+              <div className="flex space-x-1 max-sm:max-w-16 max-w-64 max-sm:h-8 h-20">
                 <Image
                   src={ministerLogoSrc}
                   alt="Minister's Logo"
                   width={128}
                   height={96}
                   priority
-                  className="min-w-[74px] max-w-[94px] w-full object-contain"
+                  className="w-full h-full object-contain"
                 />
               </div>
             </div>

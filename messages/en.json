@@ -55,6 +55,14 @@
       "name": "Mykhailo Radutskyi",
       "position": "Chairman of the Verkhovna Rada Committee on National Health, Medical Assistance and Medical Insurance"
     },
+    "9876543220": {
+      "name": "Marija Jakubauskiene",
+      "position": "Minister of Health of the Republic of Lithuania"
+    },
+    "9876543221": {
+      "name": "Daniel Naumovas",
+      "position": "Vice Minister of Health of the Republic of Lithuania"
+    },
     "9203651569": {
       "name": "Olha Stefanishyna",
       "position": "Vice Prime Minister for European and Euro-Atlantic Integration of Ukraine, Minister of Justice of Ukraine"
@@ -79,10 +87,6 @@
       "name": "Taras Savchuk",
       "position": "Export Director, Biopharma Plasma"
     },
-    "9876543210": {
-      "name": "Marija Jakubauskenė",
-      "position": "Minister of Health of Lithuania"
-    },
     "9876543211": {
       "name": "Dovilė Marčinkė",
       "position": "Director of the State Medicines Control Agency of the Republic of Lithuania"
@@ -95,13 +99,9 @@
       "name": "Michał Pilkiewicz",
       "position": "Senior Director IQVIA & General Manager of the region Ukraine, Adriatic & Baltic"
     },
-    "9876543213": {
-      "name": "Michał Szylkiewicz",
-      "position": "Senior Director, IQVIA"
-    },
-    "9876543214": {
-      "name": "Krzysztof Kopeć",
-      "position": "President of the Polish Pharmaceutical Employers' Association (PZPPF)"
+    "9876543222": {
+      "name": "Yevhen Kunda",
+      "position": "CEO Proxima Research International"
     }
   },
   "partners": {
